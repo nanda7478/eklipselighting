@@ -1,0 +1,16 @@
+#accordion h2, #accordion2 h2 {background:#DEDEDE; margin:0; padding:5px 10px; font-size:14px;	font-weight:normal;	cursor:pointer;}
+#accordion h2.current, #accordion2 h2.current {cursor:default; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#999999; letter-spacing:-1px; text-transform:uppercase; border-top:dotted 1px #999; margin:0;}
+#accordion h2 .closed, #accordion2 h2 .closed {float:right; display:none;}
+#accordion h2.current .closed, #accordion2 h2 .closed {float:right; display:block;}
+
+
+#accordion .pane, #accordion2 .pane {display:none; color:#fff;	font-size:12px;}
+#accordion .pane h3, #accordion2 .pane h3 {font-weight:normal; margin:0 0 -5px 0;	font-size:16px;	color:#999;}
+
+#accordion p, #accordion2 p {padding:10px 10px 0px 10px;}
+.app_media {width:900px;}
+
+#accordion h2 .expandcollapse, #accordion2 h2 .expandcollapse {height:10px; width:10px; background:url(../images/expandcollapse.png) no-repeat -10px 0px; float:right; position:relative;}
+#accordion h2 .expandcollapse:hover, #accordion2 h2 .expandcollapse:hover {height:10px; width:10px; background:url(../images/expandcollapse.png) 0px 0px no-repeat; float:right; position:relative;}
+#accordion h2.current .expandcollapse, #accordion2 h2.current .expandcollapse {height:10px; width:10px; background:url(../images/expandcollapse.png) no-repeat -10px -10px; float:right; position:relative;}
+#accordion h2.current .expandcollapse:hover, #accordion2 h2.current .expandcollapse:hover {height:10px; width:10px; background:url(../images/expandcollapse.png) 0px -10px no-repeat; float:right; position:relative;}
